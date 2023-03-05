@@ -10,12 +10,12 @@ function View (container) {
 
             //obtengo solo una de las mitades de los anchos
             //osea son dos espacios a los lados solo tomo uno hago igual con la altura
-            const atomX = (document.innerWidth - offsetW ) / 2;
-            const atomY = (document.innerHeigh - offsetH) / 2;
+            const atomX = (window.innerWidth - offsetW ) / 2;
+            const atomY = (window.innerHeigh - offsetH) / 2;
 
-            container.style.position = 'absolute'
-            container.style.left = atomX
-            container.style.top = atomY
+            container.style.position = 'absolute' + 'px
+            container.style.left = atomX + 'px'
+            container.style.top = atomY + 'px'
         }
     }
 }
